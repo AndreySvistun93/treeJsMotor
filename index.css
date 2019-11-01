@@ -1,0 +1,58 @@
+html,
+body {
+  margin: 0;
+  height: 200%;
+}
+
+#canvasId {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.nav {
+  right: 0px;
+  text-align: center;
+}
+.heavenLogo {
+  width: 200px;
+  margin-top: 40px;
+  justify-content: center;
+}
+
+.good {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  grid-template-columns: 3fr 1fr;
+  position: fixed;
+}
+.listItem {
+  font-size: 14pt;
+  float: left;
+  margin-top: 14px;
+  color: black;
+}
+.name_td,
+h2 {
+  list-style: none;
+  text-align: left;
+  padding-inline-start: 0px;
+}
+h2 {
+  padding: 0px 20px 0px 0px;
+  text-align: justify;
+}
+
+#descriptionObject {
+  position: absolute;
+  left: 53%;
+  width: 30%;
+  border-radius: 5px;
+  padding: 1%;
+  margin-top: 40px;
+  font-family: "Karla", sans-serif;
+  display: none;
+  transition: 2s;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+@import url("https://fonts.googleapis.com/css?family=Karla&display=swap");
